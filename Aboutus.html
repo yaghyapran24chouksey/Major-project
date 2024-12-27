@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="./aboutstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 </head>
+
 <body>
     <nav id="navbar">
         <div id="brand_name">
             <img src="#" alt="">
         </div>
         <ul class="navbarSupportcontent">
-            <li class="item"><a href="#">clothes</a></li>
-            <li class="item"><a href="#">Rental</a></li>
+            <!-- DropDown menu section for the clothig section started-->
+
+            <li class="dropdown">
+                <a href="clothes.html" class="dropbtn">Clothes</a>
+                <div class="Dropdown-content">
+                    <a href="#">To Buy</a>
+                    <a href="#">For Rent</a>
+                </div>
+            </li>
+            <!-- DropDown menu section for the clothig section ended --> 
             <li class="item"><a href="#">Wedding planner</a></li>
             <li class="item"><a href="#">Photographer</a></li>
             <li class="item"><a href="#">Marrige Hole</a></li>
@@ -29,11 +40,50 @@
         </div>
     </nav>
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="heading">
-            <h3>About Us</h3>
-            <p>Welcome to </p>
+            <h2>About Us</h2>
+            <p>We welcome you to the most favorite wedding planning website</p>
+            <img src="image/wedding couple image.jpeg" alt="">
+        </div>
+    </div> -->
+
+    <div class="wrapper">
+        <div class="text-box">
+            <h2>About Us</h2>
+            <img src="image/wedding couple image.jpeg" alt="">
+            <p class="firstparah">We welcome you to the most favorite wedding planning website. Where you plan your
+                wedding according to your convenience.</p>
+            <br>
+            <p class="secondparah">This website is designed to simplify and enhance the wedding planning process through
+                a comprehensive
+                online platform. In today's fast-paced world, planning a wedding can be overwhelming and
+                time-consuming. This project aims to develop a user-friendly website that centralizes all
+                wedding-related arrangements, from venue selection and vendor management to <br>guest invitation and event
+                scheduling.</p>
         </div>
     </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Wedding Planner</h3>
+                <p>Wedding Planner is a wedding planning website that helps you plan your wedding according to
+                    your convenience.</p>
+                <div class="followus">
+                    <h4>Follow Us</h4>
+                    <div class="socialIcon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Copyright &copy; 2024 Wedding Planner. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="clothes_Dropdown-menu.js"></script>
 </html>
