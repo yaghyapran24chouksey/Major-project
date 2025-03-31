@@ -73,11 +73,8 @@ html{
 .right {
     position: absolute;
     right: 34px;
-    /* top: 34px; */
     display: inline-block;
-    /* border: 2px solid yellow; */
 }
-
 
 /* dropdown menu section started */
 
@@ -85,14 +82,6 @@ html{
     position: relative;
     display: inline-block;
 }
-
-/* .dropbtn{
-    background-color: #04aa6d;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-} */
 
 .Dropdown-content{
     display: none;
@@ -120,9 +109,5 @@ html{
 .dropdown:hover .Dropdown-content{
     display: block;
 }
-
-/* .dropdown:hover .dropbtn{
-    background-color: #3e8e41;
-} */
 
 /* Dropdown menu section ended */
