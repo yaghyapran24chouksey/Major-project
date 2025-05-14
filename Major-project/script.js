@@ -2,10 +2,10 @@
 // Data for services and testimonials
 const services = [
   {
-    title: 'Venues',
-    description: 'Find the perfect location for your dream wedding, from elegant mandaps to scenic outdoor settings.',
-    image: "img/Services/venue.png",
-    link: '#'
+    title: 'Fireworks',
+    description: 'Add a magical touch to your wedding with stunning fireworks displays that light up the night sky.',
+    image: "img/Services/firework_perfectcoldpyroandweddingentire_2.jpg",
+    link: 'Firework.html'
   },
   {
     title: 'Attire & Jewelry',
@@ -17,7 +17,7 @@ const services = [
     title: 'Photography',
     description: 'Capture every special moment with our professional photographers and videographers.',
     image: "img/Services/photography.jpg",
-    link: '#'
+    link: 'Photographer.html'
   },
   {
     title: 'Catering',
@@ -26,10 +26,10 @@ const services = [
     link: '#'
   },
   {
-    title: 'Decorations',
-    description: 'Transform your venue with stunning floral arrangements and traditional Indian decorative elements.',
+    title: 'Wedding Planner',
+    description: 'Let our expert wedding planners handle all the details, from venue selection to day-of coordination.',
     image: "img/Services/Wedding_decoration.jpg",
-    link: '#'
+    link: 'wedding-planner.html'
   },
   // {
   //   title: 'Entertainment',
