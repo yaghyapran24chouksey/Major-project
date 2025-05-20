@@ -393,7 +393,7 @@ img {
 .hero {
   height: 80vh;
   min-height: 650px;
-  background-image: url('/img/Mainpagephoto/wedding_couple_frontpage_photo.jpg');
+  background-image: url(img/Mainpagephoto/wedding_couple_frontpage_photo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
