@@ -8,22 +8,22 @@ const services = [
     link: 'Firework.html'
   },
   {
-    title: 'Attire & Jewelry',
-    description: 'Discover stunning lehengas, sherwanis, and traditional jewelry for the entire wedding party.',
-    image: "img/Services/Traditional_jewelry.jpg",
-    link: '#'
+    title: 'Band Baja Baraat',
+    description: 'Experience the joy of a traditional baraat with live music, dance, and vibrant celebrations.',
+    image: "img/Services/Bandbajabaarat.jpg",
+    link: 'Band_baja_baraat.html'
   },
   {
-    title: 'Photography',
-    description: 'Capture every special moment with our professional photographers and videographers.',
-    image: "img/Services/photography.jpg",
-    link: 'Photographer.html'
+    title: 'Invitation Carda',
+    description: 'Create beautiful and personalized wedding invitations that set the tone for your special day.',
+    image: "img/Services/Invitation_card.jpg",
+    link: 'Invitation-card.html'
   },
   {
     title: 'Catering',
     description: 'Delight your guests with exquisite Indian cuisine and beverage options for your reception.',
     image: "img/Services/Catering.jpg",
-    link: '#'
+    link: 'Catering.html'
   },
   {
     title: 'Wedding Planner',
